@@ -1,0 +1,29 @@
+.th-38{
+	border: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+}
+.member{
+	border: 2px solid skyblue;
+	width: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;			
+}
+.name, .role, .department, .SNS{
+	text-align: center;
+}
+.name{
+	font-size: 20px;
+}
+.role{
+	font-size: 15px;
+}
+.department{
+	font-size: 15px;
+}
+		
