@@ -1,9 +1,18 @@
-p{
+.main_p{
 	text-align: left;
 	color:black;
-	font-size: 30px;
+	font-size: 28px;
 	font-family: !important;	
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+body{
+	height: 100vh;
+	width: 100vw;
+	background-image: url("../image/CHEMU.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
