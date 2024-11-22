@@ -4,7 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="../../CSS/category_style.css" rel="stylesheet">
-	<title>Photo</title>
+	<link href="../../CSS/Notice_style.css" rel="stylesheet">
+	<title>Notice</title>
 </head>
 <body>
 	<h1><a href="../main.html">CHEMU</a></h1>
@@ -14,6 +15,33 @@
 		<a href="Photo.html">Photo</a>
 		<a href="Notice.html">Notice</a>
 	</div>
+
+	<table class="table">
+    <tr><td colspan="2"><h2>Notice</h2></td></tr>
+    <tr class="header">
+        <td class="num">no.</td>
+        <td class="title">title</td>
+        <td>written</td>
+        <td>last post</td>
+    </tr>
+    <script>
+        var i, day = 20;
+        for (i = 10; i > 0; i--) {
+            document.write("<tr class='body'>");
+            document.write("<td>" + i +"</td>");
+            document.write("<td class='title'>제목입니다.</td>"); 
+            document.write("<td>작성자</td>"); 
+      		document.write("<td>24-01-" + day-- + "</td>");
+            document.write("</tr>");
+        }
+       </script>
+</table>
+<br>
+<table>
+    <tr>
+        <td><button onclick="location.href='write.html'">글쓰기</button></td>
+    </tr>
+</table>
 
 </body>
 </html>

@@ -12,9 +12,15 @@ h1{
 	font-family: sans-serif;
 	background-color: #eee;
 	width: vw;
+	margin: 0 auto;
+}
+.category a{
+	margin: 40px;
+	text-decoration-line: none;
+	color: inherit;
 }
 
-a{
+h1 a{
 	text-decoration-line: none;
 	color: inherit;
 }
